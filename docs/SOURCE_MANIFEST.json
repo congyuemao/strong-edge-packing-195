@@ -1,0 +1,984 @@
+{
+  "schema_version": 1,
+  "release_name": "strong-edge-packing-195",
+  "prepared_at": "2026-10-10T22:56:38+11:00",
+  "source_repositories": [
+    {
+      "url": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "commit": "860b5e44588d1bbc1eceed8748c67b29693a9d99",
+      "branch": "codex/results-archive",
+      "proof_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "previous_manuscript_commit": "13183f9aec2fd3a35971329f3bc01b72de5db3a8"
+    },
+    {
+      "url": "https://github.com/congyuemao/strong-edge-colouring-research",
+      "commit": "a2cac8df6aac108ea1c286f67bd1a144972a6d2a",
+      "branch": "codex/research-archive",
+      "role": "historical archive only; no research files copied"
+    }
+  ],
+  "coverage": "Every release file except this manifest itself; .git and ignored build dependencies/caches are excluded.",
+  "lean_source_files": 75,
+  "unchanged_formal_source_and_environment_files": 79,
+  "mathematical_source_changes": [],
+  "manuscript_changes": [
+    "Removed only the separate title-page @credit line; regenerated the PDF; full AI disclosure and mathematical source preserved."
+  ],
+  "build_tools_and_source_evidence": [
+    {
+      "source_path": "output/pdf/build_packing195.py",
+      "source_commit": "860b5e44588d1bbc1eceed8748c67b29693a9d99",
+      "source_sha256": "36cc3fbeec7bc9b22adee1ca30334c7d3bdf97a872b93ec511494ea5d3424998",
+      "included_in_release": false
+    },
+    {
+      "source_path": "output/pdf/build_manuscript.py",
+      "source_commit": "860b5e44588d1bbc1eceed8748c67b29693a9d99",
+      "source_sha256": "5232ff5fde61e159fa17e92190cbfc74f8695d46e80fab98f4be891ed39fca1c",
+      "included_in_release": false
+    },
+    {
+      "source_path": "output/pdf/packing195_unconditional_manuscript_build.json",
+      "source_commit": "860b5e44588d1bbc1eceed8748c67b29693a9d99",
+      "source_sha256": "50555e13fd5cb477f808f9a303af67b7f30b1df2abcaf075ef5c01de419a3c9f",
+      "included_in_release": false
+    },
+    {
+      "source_path": "strong_edge_lean_starter/verification/packing195-unconditional-source-sha256.json",
+      "source_commit": "860b5e44588d1bbc1eceed8748c67b29693a9d99",
+      "source_sha256": "335212c43677a88ca39eaf97f9494ab097b0a2d902d8dea0371d5bad2b3f1295",
+      "included_in_release": false
+    }
+  ],
+  "release_verification": {
+    "platform": "Windows 11 x86_64 build 26200",
+    "timezone": "Australia/Sydney",
+    "status": "READY FOR PUBLICATION (local only)",
+    "build_jobs": 1197,
+    "audit": {
+      "modules": [
+        {
+          "module": "Audit",
+          "entries": 225,
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Audit195",
+          "entries": 22,
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Audit195Continuation",
+          "entries": 31,
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Audit195Thresholds",
+          "entries": 34,
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Audit195Unconditional",
+          "entries": 64,
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "audit_entries": 376,
+      "distinct_declarations": 376,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "commands": [
+      {
+        "name": "dependency-cache",
+        "started_at": "2026-10-10T22:46:15+11:00",
+        "finished_at": "2026-10-10T22:48:14+11:00",
+        "exit_code": 0,
+        "log_sha256": "d61be53757551a411ffbf492586e705f5dc6595b2001cc5e005b200111a48c21"
+      },
+      {
+        "name": "build",
+        "started_at": "2026-10-10T22:48:14+11:00",
+        "finished_at": "2026-10-10T22:53:13+11:00",
+        "exit_code": 0,
+        "log_sha256": "9de913cbfec937ffeb2bf249bb2e95b59afb64f7e8e1da7eb1a6c6b7040670b1"
+      },
+      {
+        "name": "Audit",
+        "started_at": "2026-10-10T22:53:13+11:00",
+        "finished_at": "2026-10-10T22:53:23+11:00",
+        "exit_code": 0,
+        "log_sha256": "2bf9d6645dfea52a2b92a081e75af0a4390d9d075c11453f60cde1e48b141c3f"
+      },
+      {
+        "name": "Audit195",
+        "started_at": "2026-10-10T22:53:23+11:00",
+        "finished_at": "2026-10-10T22:53:37+11:00",
+        "exit_code": 0,
+        "log_sha256": "e7cf9a7d0d5c3c1ea43f41affd9d2762abd98f94d2eed6d4965658fdb9b98976"
+      },
+      {
+        "name": "Audit195Continuation",
+        "started_at": "2026-10-10T22:53:37+11:00",
+        "finished_at": "2026-10-10T22:53:51+11:00",
+        "exit_code": 0,
+        "log_sha256": "f13331ddd284ff47c6edc8c2f761accb719a01f3a4585f0cb79acf0da8d4ad8b"
+      },
+      {
+        "name": "Audit195Thresholds",
+        "started_at": "2026-10-10T22:53:51+11:00",
+        "finished_at": "2026-10-10T22:54:05+11:00",
+        "exit_code": 0,
+        "log_sha256": "2efc3a95bb0afd4bb6144a77580a3c7556ed3493ee57248b44a9a1f2ffef9976"
+      },
+      {
+        "name": "Audit195Unconditional",
+        "started_at": "2026-10-10T22:54:05+11:00",
+        "finished_at": "2026-10-10T22:54:19+11:00",
+        "exit_code": 0,
+        "log_sha256": "67d609bb3e4cfcc7d49dd08be5c92f025e30b2a84283840d32ef1077c3535e76"
+      },
+      {
+        "name": "Tests",
+        "started_at": "2026-10-10T22:54:19+11:00",
+        "finished_at": "2026-10-10T22:54:30+11:00",
+        "exit_code": 0,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "Tests195",
+        "started_at": "2026-10-10T22:54:30+11:00",
+        "finished_at": "2026-10-10T22:54:42+11:00",
+        "exit_code": 0,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "Tests195Unconditional",
+        "started_at": "2026-10-10T22:54:42+11:00",
+        "finished_at": "2026-10-10T22:55:00+11:00",
+        "exit_code": 0,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "pdf": {
+      "pdf_sha256": "caac492cf24d6abdf28068f0a93f09a66cdeacb12407bdfac04dd36eb81e5144",
+      "source_sha256": "47ba0d2ac112c0d215f3d6f3502bd520b34b8b5966cbc7f83f57a22e68440804",
+      "pages": 19,
+      "author": "Congyue Mao",
+      "mathematical_source_unchanged": true,
+      "per_page_extracted_text_unchanged_except_credit": true,
+      "numbered_statements": 37,
+      "numbered_equations": 28,
+      "all_pages_rendered_with_poppler": true,
+      "visual_review": "All 19 rendered pages inspected; no clipping, overlap or illegible equations observed; title page and full AI disclosure inspected.",
+      "exit_code": 0
+    },
+    "original_archives_unchanged": true,
+    "remote_write_operations": 0
+  },
+  "files": [
+    {
+      "release_path": ".gitattributes",
+      "release_sha256": "977f7e039ecec3637c192a57dd163df1ff142465491b443b4fefbbee26a5b5a5",
+      "source_path": null,
+      "source_commit": null,
+      "source_sha256": null,
+      "status": "new release documentation or repository configuration"
+    },
+    {
+      "release_path": ".gitignore",
+      "release_sha256": "33713cad351dd3f27981c930cc4382786fb543c7fbfe9d9bb93f57f56ff923c9",
+      "source_path": null,
+      "source_commit": null,
+      "source_sha256": null,
+      "status": "new release documentation or repository configuration"
+    },
+    {
+      "release_path": "docs/PROVENANCE.md",
+      "release_sha256": "fdea952c728333f398f6065a31e4fd577191ee8038a80426683dbbfe6093a78b",
+      "source_path": null,
+      "source_commit": null,
+      "source_sha256": null,
+      "status": "new release documentation or repository configuration"
+    },
+    {
+      "release_path": "docs/VERIFICATION.md",
+      "release_sha256": "afe043ce052ea5020634164900677078477e985cff3f096f99545b906ce4ecf7",
+      "source_path": null,
+      "source_commit": null,
+      "source_sha256": null,
+      "status": "new release documentation or repository configuration"
+    },
+    {
+      "release_path": "lean/lake-manifest.json",
+      "release_sha256": "8514da62e26146984cfb3eff374af2f90f2404fbd7e2c4ff5965b9cf9bb0a9bf",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/lake-manifest.json",
+      "source_sha256": "8514da62e26146984cfb3eff374af2f90f2404fbd7e2c4ff5965b9cf9bb0a9bf",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/lakefile.toml",
+      "release_sha256": "4f9ceaec88afaeaf4c9aa398cb37eb93a14d8b19967740cc6a43016568007147",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/lakefile.toml",
+      "source_sha256": "4f9ceaec88afaeaf4c9aa398cb37eb93a14d8b19967740cc6a43016568007147",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/lean-toolchain",
+      "release_sha256": "8f89aa44fccdb1a0b6cc768c7c9f54b94cd40e47a08d582f82d1235f13075cf7",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/lean-toolchain",
+      "source_sha256": "8f89aa44fccdb1a0b6cc768c7c9f54b94cd40e47a08d582f82d1235f13075cf7",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/lean.ps1",
+      "release_sha256": "dde5022f61ef2df720b823d8eed89cd762a07876a36cad25c40448a375412186",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/lean.ps1",
+      "source_sha256": "dde5022f61ef2df720b823d8eed89cd762a07876a36cad25c40448a375412186",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/README.md",
+      "release_sha256": "07ef1299dfd72be68a642679ab18ced9137bf4749c5b55b5d75333b68285379e",
+      "source_path": null,
+      "source_commit": null,
+      "source_sha256": null,
+      "status": "new release documentation or repository configuration"
+    },
+    {
+      "release_path": "lean/StrongEdge/Audit.lean",
+      "release_sha256": "61fe86ee0716e141ef65c4110eb00e4f02da9ba95582b8326341756979032353",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Audit.lean",
+      "source_sha256": "61fe86ee0716e141ef65c4110eb00e4f02da9ba95582b8326341756979032353",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Audit195.lean",
+      "release_sha256": "b262b1820537ff44c6920077cb9a36c98a9c7d362012ba10470bafc925914a19",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Audit195.lean",
+      "source_sha256": "b262b1820537ff44c6920077cb9a36c98a9c7d362012ba10470bafc925914a19",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Audit195Continuation.lean",
+      "release_sha256": "47d854e5f4a72eb6bcf0eb06dd70dbd9ccc9e26c6654c693e41abb7c5f52c537",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Audit195Continuation.lean",
+      "source_sha256": "47d854e5f4a72eb6bcf0eb06dd70dbd9ccc9e26c6654c693e41abb7c5f52c537",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Audit195Thresholds.lean",
+      "release_sha256": "ad07836d90a8725ea13b074373e4d6f119205be3892e09ecd2affbf7d9d6e289",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Audit195Thresholds.lean",
+      "source_sha256": "ad07836d90a8725ea13b074373e4d6f119205be3892e09ecd2affbf7d9d6e289",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Audit195Unconditional.lean",
+      "release_sha256": "d0e3501ac8c7de39b23fda9d0da7ae7ba57a19d2c5d2502a4fc0efbb751fbd0d",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Audit195Unconditional.lean",
+      "source_sha256": "d0e3501ac8c7de39b23fda9d0da7ae7ba57a19d2c5d2502a4fc0efbb751fbd0d",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Basic.lean",
+      "release_sha256": "288dc9a5bc9c386f761d4629291accf36826468c12c449ca88d7b5456a10b17f",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Basic.lean",
+      "source_sha256": "288dc9a5bc9c386f761d4629291accf36826468c12c449ca88d7b5456a10b17f",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/ConflictDegree.lean",
+      "release_sha256": "31488e9940bb477d5dea5b03db2094f7f276d55028ee3b3f6067c0cfa947d138",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/ConflictDegree.lean",
+      "source_sha256": "31488e9940bb477d5dea5b03db2094f7f276d55028ee3b3f6067c0cfa947d138",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/ConflictRigidity.lean",
+      "release_sha256": "17e8b5a40f347cb6bd874d53fae8ec1abcb0cd0149ed6513edbd3e27d2e041ca",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/ConflictRigidity.lean",
+      "source_sha256": "17e8b5a40f347cb6bd874d53fae8ec1abcb0cd0149ed6513edbd3e27d2e041ca",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/DegreeTwoClique.lean",
+      "release_sha256": "c19c40ee1886ef0b4788a232162333dc17d56c744f4a71f973a02e8796afbf0a",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/DegreeTwoClique.lean",
+      "source_sha256": "c19c40ee1886ef0b4788a232162333dc17d56c744f4a71f973a02e8796afbf0a",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/EdgeCounting.lean",
+      "release_sha256": "c0e0314dffabf2d9cd8b211c967c497d6d0b44cddf01926d872b40b98291851b",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/EdgeCounting.lean",
+      "source_sha256": "c0e0314dffabf2d9cd8b211c967c497d6d0b44cddf01926d872b40b98291851b",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High20.lean",
+      "release_sha256": "adf475c3d18ee364091a81511bf394bb50685a38d8e61745815c2d7b650f00ce",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High20.lean",
+      "source_sha256": "adf475c3d18ee364091a81511bf394bb50685a38d8e61745815c2d7b650f00ce",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High20Four.lean",
+      "release_sha256": "2c4fc83e9bdfc4cb67f96808a507ae6ba42fe0252ce5585fdc04c48f4e1f1cec",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High20Four.lean",
+      "source_sha256": "2c4fc83e9bdfc4cb67f96808a507ae6ba42fe0252ce5585fdc04c48f4e1f1cec",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High20Improved.lean",
+      "release_sha256": "437eb7197cd79f9519b509ed76b611cf3ba00d12900230568b3124ee98ca1028",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High20Improved.lean",
+      "source_sha256": "437eb7197cd79f9519b509ed76b611cf3ba00d12900230568b3124ee98ca1028",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High20Local.lean",
+      "release_sha256": "12bca7f902d69f480ae658512dfe479370b1264b52494c26192c74f575e9e669",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High20Local.lean",
+      "source_sha256": "12bca7f902d69f480ae658512dfe479370b1264b52494c26192c74f575e9e669",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High20Outer.lean",
+      "release_sha256": "988bc2f00b8cd7bb02b1d197091a65fbf4d9460899c888de747c31a01ee43300",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High20Outer.lean",
+      "source_sha256": "988bc2f00b8cd7bb02b1d197091a65fbf4d9460899c888de747c31a01ee43300",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High20Slots.lean",
+      "release_sha256": "8ae06351b91e0403a77d99901880bb2b25bf1a4e5ed523976fa30aa32394dd9a",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High20Slots.lean",
+      "source_sha256": "8ae06351b91e0403a77d99901880bb2b25bf1a4e5ed523976fa30aa32394dd9a",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High20TwoTriples.lean",
+      "release_sha256": "01727f8f211f1f5cdb727d845d40d82937b9325f91ff7e0cc82f2412beb8556c",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High20TwoTriples.lean",
+      "source_sha256": "01727f8f211f1f5cdb727d845d40d82937b9325f91ff7e0cc82f2412beb8556c",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High20UniqueTriple.lean",
+      "release_sha256": "a179499887dc39fbd885827e5f7abc04798253c6ee4f82a1298cdadaa4e929a0",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High20UniqueTriple.lean",
+      "source_sha256": "a179499887dc39fbd885827e5f7abc04798253c6ee4f82a1298cdadaa4e929a0",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High21.lean",
+      "release_sha256": "01755b57b856b072a70b81ab34c050d5e55edda1bb954e1c54f25422cf317176",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High21.lean",
+      "source_sha256": "01755b57b856b072a70b81ab34c050d5e55edda1bb954e1c54f25422cf317176",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High21Double.lean",
+      "release_sha256": "eda40a14a25422d5127e1a927c0bdbb18cc86ee730f151625d91f688099c18af",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High21Double.lean",
+      "source_sha256": "eda40a14a25422d5127e1a927c0bdbb18cc86ee730f151625d91f688099c18af",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High21Improved.lean",
+      "release_sha256": "d07328de2c0590143374a3fa6de7fca7a8f87292f1bc43ef336d3eaccfb10609",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High21Improved.lean",
+      "source_sha256": "d07328de2c0590143374a3fa6de7fca7a8f87292f1bc43ef336d3eaccfb10609",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High21ImprovedRoot.lean",
+      "release_sha256": "2301191856ce67c57e3e2534a8985824359892ccc98421e6605fbe3e6332dd0d",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High21ImprovedRoot.lean",
+      "source_sha256": "2301191856ce67c57e3e2534a8985824359892ccc98421e6605fbe3e6332dd0d",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High21LargeType.lean",
+      "release_sha256": "de5c8553f6a1cd04aa0368e6f27f897409f1998c94eaef5e6ed05b52b69385ac",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High21LargeType.lean",
+      "source_sha256": "de5c8553f6a1cd04aa0368e6f27f897409f1998c94eaef5e6ed05b52b69385ac",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High21Local.lean",
+      "release_sha256": "0ca45742b1ac44c146c5f2098fead1303748ff597821f740fea86572633aefb0",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High21Local.lean",
+      "source_sha256": "0ca45742b1ac44c146c5f2098fead1303748ff597821f740fea86572633aefb0",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High21RootFour.lean",
+      "release_sha256": "82e910e507761248a52fcd48d2fe521fdb3304b5b17890d676137ec79214bfa0",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High21RootFour.lean",
+      "source_sha256": "82e910e507761248a52fcd48d2fe521fdb3304b5b17890d676137ec79214bfa0",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High21Support.lean",
+      "release_sha256": "558dcac67b3993fb3c129fdc29ff9a5992ec1be041a7af589a28d164b45ec963",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High21Support.lean",
+      "source_sha256": "558dcac67b3993fb3c129fdc29ff9a5992ec1be041a7af589a28d164b45ec963",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High22.lean",
+      "release_sha256": "669d863595750e29f1f971c80fef38cbd73325af8e0f823a24f78d4c7c017659",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High22.lean",
+      "source_sha256": "669d863595750e29f1f971c80fef38cbd73325af8e0f823a24f78d4c7c017659",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High22Heavy.lean",
+      "release_sha256": "7d8fa7c8dcb9573788af2c28aaa11e5beeab6542f1b73a89cc14009e991ea2bb",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High22Heavy.lean",
+      "source_sha256": "7d8fa7c8dcb9573788af2c28aaa11e5beeab6542f1b73a89cc14009e991ea2bb",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High22Improved.lean",
+      "release_sha256": "136832b64c6a0dc4d5bba07e9934ead78c5ca0ccb462e888916d4efedd7889f3",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High22Improved.lean",
+      "source_sha256": "136832b64c6a0dc4d5bba07e9934ead78c5ca0ccb462e888916d4efedd7889f3",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High22ImprovedRoot.lean",
+      "release_sha256": "79a0b511050106d1d00461eb6e881567fd6b098c78f2071844f6073e30d8da40",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High22ImprovedRoot.lean",
+      "source_sha256": "79a0b511050106d1d00461eb6e881567fd6b098c78f2071844f6073e30d8da40",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High22Local.lean",
+      "release_sha256": "850e545d2c36df620104aa4956b50071ad54dc31950b68990a2905b8f8060a0d",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High22Local.lean",
+      "source_sha256": "850e545d2c36df620104aa4956b50071ad54dc31950b68990a2905b8f8060a0d",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High22RootFour.lean",
+      "release_sha256": "0fdf538967c605ac418e978a84cb011bc6211eed51934c441e41d4b61ca86030",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High22RootFour.lean",
+      "source_sha256": "0fdf538967c605ac418e978a84cb011bc6211eed51934c441e41d4b61ca86030",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High22Subcubic.lean",
+      "release_sha256": "527002b6e4c0ea0a2cd9e40856b3e0e37824b4f015a19796569b1ef08c9205a0",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High22Subcubic.lean",
+      "source_sha256": "527002b6e4c0ea0a2cd9e40856b3e0e37824b4f015a19796569b1ef08c9205a0",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High22Support.lean",
+      "release_sha256": "b13cb7d634f8f587988271c71713413d81436104f63045aa2b8cb756de098f28",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High22Support.lean",
+      "source_sha256": "b13cb7d634f8f587988271c71713413d81436104f63045aa2b8cb756de098f28",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High22SupportSize.lean",
+      "release_sha256": "20ad3616b59d7e0510303d8dce0d06045dee8632d9ccf0c47d314e7a8b97445b",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High22SupportSize.lean",
+      "source_sha256": "20ad3616b59d7e0510303d8dce0d06045dee8632d9ccf0c47d314e7a8b97445b",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High23.lean",
+      "release_sha256": "1188932515e5768a76bff64e72f85e25f89497575b022234e5e7d89d10da27ab",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High23.lean",
+      "source_sha256": "1188932515e5768a76bff64e72f85e25f89497575b022234e5e7d89d10da27ab",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High23Four.lean",
+      "release_sha256": "658bc022c5773a44d0b1580d7b7f601bc61ba5f9b9f29eae85cac70491595605",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High23Four.lean",
+      "source_sha256": "658bc022c5773a44d0b1580d7b7f601bc61ba5f9b9f29eae85cac70491595605",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High23Improved.lean",
+      "release_sha256": "b95ed548034a02f729e84ae320ee3b437c955411a310a1b65d71d196e93883d2",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High23Improved.lean",
+      "source_sha256": "b95ed548034a02f729e84ae320ee3b437c955411a310a1b65d71d196e93883d2",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High23Local.lean",
+      "release_sha256": "2f3cf63a11d81abfa0abea1f029a3f41e10c7d6f2b727032b6a036cb8759ef00",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High23Local.lean",
+      "source_sha256": "2f3cf63a11d81abfa0abea1f029a3f41e10c7d6f2b727032b6a036cb8759ef00",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High23Outer.lean",
+      "release_sha256": "ece5071cc52bbf48c6d8a48229d62dfc90d0978463402d259cd1f8e628b90732",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High23Outer.lean",
+      "source_sha256": "ece5071cc52bbf48c6d8a48229d62dfc90d0978463402d259cd1f8e628b90732",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High23Support.lean",
+      "release_sha256": "7427dd61956beffbd946dd0302f3a13515d792aff0f21bf990484476582d11c9",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High23Support.lean",
+      "source_sha256": "7427dd61956beffbd946dd0302f3a13515d792aff0f21bf990484476582d11c9",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/High24.lean",
+      "release_sha256": "acbd70b4ac91cb295f7496e1c4f5147568ac092af6f5021a095a244d035d16b2",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/High24.lean",
+      "source_sha256": "acbd70b4ac91cb295f7496e1c4f5147568ac092af6f5021a095a244d035d16b2",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/LowSupportGeometry.lean",
+      "release_sha256": "a767a48c262222e21f30b809cbb9babf4a90ce4d89124288ae05409b3b164568",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/LowSupportGeometry.lean",
+      "source_sha256": "a767a48c262222e21f30b809cbb9babf4a90ce4d89124288ae05409b3b164568",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/RootCounting.lean",
+      "release_sha256": "f27464b4fc8ac49779f79c9cb239aa578d70842a4f8d802e489900d30a56771a",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/RootCounting.lean",
+      "source_sha256": "f27464b4fc8ac49779f79c9cb239aa578d70842a4f8d802e489900d30a56771a",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/SubcubicBoundary.lean",
+      "release_sha256": "97166f19074e4ca11762ffd835d0be5d41d85a17d607f27f3e31a7db4a2a3d1b",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/SubcubicBoundary.lean",
+      "source_sha256": "97166f19074e4ca11762ffd835d0be5d41d85a17d607f27f3e31a7db4a2a3d1b",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/SubcubicDefect.lean",
+      "release_sha256": "c489500ed74feff25ff2e12e896e4a515cf7de75ee4b5923f2993c110f71687e",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/SubcubicDefect.lean",
+      "source_sha256": "c489500ed74feff25ff2e12e896e4a515cf7de75ee4b5923f2993c110f71687e",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/SubcubicEighteen.lean",
+      "release_sha256": "7e007e86ff6bd4ab4d32943987e1432d681f79464efacf838f3a8ae1be5dab66",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/SubcubicEighteen.lean",
+      "source_sha256": "7e007e86ff6bd4ab4d32943987e1432d681f79464efacf838f3a8ae1be5dab66",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/SubcubicSeventeen.lean",
+      "release_sha256": "671a1bf3168fb28d0cc8c23c7b663cc0b022fc62fe8ca79e6591a06f196deea5",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/SubcubicSeventeen.lean",
+      "source_sha256": "671a1bf3168fb28d0cc8c23c7b663cc0b022fc62fe8ca79e6591a06f196deea5",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/TwentyCliqueComponent.lean",
+      "release_sha256": "1675676ec4872bb9fd589051b9623f7ca2cefadeef03525eaf3924b18758ebf9",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/TwentyCliqueComponent.lean",
+      "source_sha256": "1675676ec4872bb9fd589051b9623f7ca2cefadeef03525eaf3924b18758ebf9",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/TwentyCliqueCounting.lean",
+      "release_sha256": "71a320502818741d1d3c4fc816da7de59fa26cf89eaae728bef7c81a46bdcad1",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/TwentyCliqueCounting.lean",
+      "source_sha256": "71a320502818741d1d3c4fc816da7de59fa26cf89eaae728bef7c81a46bdcad1",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/TwentyCliqueParts.lean",
+      "release_sha256": "cfed6fa46d2053ced6d43fa606afb38a3a90e2994e23ace282e5a53fdf6293de",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/TwentyCliqueParts.lean",
+      "source_sha256": "cfed6fa46d2053ced6d43fa606afb38a3a90e2994e23ace282e5a53fdf6293de",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/TwentyCliqueRigidity.lean",
+      "release_sha256": "5879571703c694b295afb4af2fc24c56c495257b14fb1a8e388e6d428582baa4",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/TwentyCliqueRigidity.lean",
+      "source_sha256": "5879571703c694b295afb4af2fc24c56c495257b14fb1a8e388e6d428582baa4",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/TwentyCliqueRoot.lean",
+      "release_sha256": "54c07e0052a900545a135010745cd8b5349339005e5c1369698daca3f8e704ea",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/TwentyCliqueRoot.lean",
+      "source_sha256": "54c07e0052a900545a135010745cd8b5349339005e5c1369698daca3f8e704ea",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/TwentyCliqueSaturation.lean",
+      "release_sha256": "a52d756d4a0819f9da99dc0715ba7fcc33ab1a51b5d19e8c591ad67d28fa8d89",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/TwentyCliqueSaturation.lean",
+      "source_sha256": "a52d756d4a0819f9da99dc0715ba7fcc33ab1a51b5d19e8c591ad67d28fa8d89",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Bounds/TwentyCliqueTypes.lean",
+      "release_sha256": "e61c0d94ecdfc7cb25b310aeb02f479c5896b844048d586232464b5168905ceb",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Bounds/TwentyCliqueTypes.lean",
+      "source_sha256": "e61c0d94ecdfc7cb25b310aeb02f479c5896b844048d586232464b5168905ceb",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Conflict.lean",
+      "release_sha256": "2ba6dfe103a17b3c236a553076d78b41554b0aa9eeb0646e22e9a4c97c73eb3c",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Conflict.lean",
+      "source_sha256": "2ba6dfe103a17b3c236a553076d78b41554b0aa9eeb0646e22e9a4c97c73eb3c",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/DoubleCount.lean",
+      "release_sha256": "40ab63cb88164f509765dadc130de926d3be8256ec958488738dc74fd5edf7ad",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/DoubleCount.lean",
+      "source_sha256": "40ab63cb88164f509765dadc130de926d3be8256ec958488738dc74fd5edf7ad",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/High20Packing.lean",
+      "release_sha256": "06990888b99f9f231fd545dbbe24dc09e5beeffef697bc9d12f7c97a1ca82ba9",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/High20Packing.lean",
+      "source_sha256": "06990888b99f9f231fd545dbbe24dc09e5beeffef697bc9d12f7c97a1ca82ba9",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/High21Packing.lean",
+      "release_sha256": "ef41316bc2f9a006c165fdd0b194055aff05226098c52af02eb2c3e0807226c5",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/High21Packing.lean",
+      "source_sha256": "ef41316bc2f9a006c165fdd0b194055aff05226098c52af02eb2c3e0807226c5",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/High22Packing.lean",
+      "release_sha256": "d3da06e6cd6877fc4400af048a5cde9db2f71192fa7edafda58e3d991ccf5d42",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/High22Packing.lean",
+      "source_sha256": "d3da06e6cd6877fc4400af048a5cde9db2f71192fa7edafda58e3d991ccf5d42",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/High23Packing.lean",
+      "release_sha256": "ea412d3ae12fc7a50130deda57182cd39511182eb76f9fa66a7f4e80fd251d3e",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/High23Packing.lean",
+      "source_sha256": "ea412d3ae12fc7a50130deda57182cd39511182eb76f9fa66a7f4e80fd251d3e",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/High24Packing.lean",
+      "release_sha256": "609e27ff574b3950c014dcc339411b8d73256afa6cc9bc0c2f6cfcebc48f1a36",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/High24Packing.lean",
+      "source_sha256": "609e27ff574b3950c014dcc339411b8d73256afa6cc9bc0c2f6cfcebc48f1a36",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/MinimalPacking.lean",
+      "release_sha256": "84964550d90f4af23ae492d61725ee2622d167b23f04db40d69fa5cb158b2698",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/MinimalPacking.lean",
+      "source_sha256": "84964550d90f4af23ae492d61725ee2622d167b23f04db40d69fa5cb158b2698",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/MinimalPacking195.lean",
+      "release_sha256": "ed6cb96f0eb26eaa1fd1158a336ec17393a9510bad344167f9ecc991cd553737",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/MinimalPacking195.lean",
+      "source_sha256": "ed6cb96f0eb26eaa1fd1158a336ec17393a9510bad344167f9ecc991cd553737",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Packing.lean",
+      "release_sha256": "ab41305d987050fec53be08ca0474c1919974b2240821553d301465a40af7777",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Packing.lean",
+      "source_sha256": "ab41305d987050fec53be08ca0474c1919974b2240821553d301465a40af7777",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Packing195.lean",
+      "release_sha256": "735f313b25a1c72f436a4b9206224eef784f5c5586f80806072a82d080d53d53",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Packing195.lean",
+      "source_sha256": "735f313b25a1c72f436a4b9206224eef784f5c5586f80806072a82d080d53d53",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Packing195Continuation.lean",
+      "release_sha256": "6d436147df989d68a4da15dd1681c036bba94499ec64d877f911fc016079dd1c",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Packing195Continuation.lean",
+      "source_sha256": "6d436147df989d68a4da15dd1681c036bba94499ec64d877f911fc016079dd1c",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Packing195Thresholds.lean",
+      "release_sha256": "5ba6f05a8bdd5972755d4d5720decd75282d89b4e21f295cf05b6dcfdb3c41a3",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Packing195Thresholds.lean",
+      "source_sha256": "5ba6f05a8bdd5972755d4d5720decd75282d89b4e21f295cf05b6dcfdb3c41a3",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Packing195Unconditional.lean",
+      "release_sha256": "ce7d282df2cea85e975da75a3a21294c41dc1a758327b89a3992c7a4879e1e17",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Packing195Unconditional.lean",
+      "source_sha256": "ce7d282df2cea85e975da75a3a21294c41dc1a758327b89a3992c7a4879e1e17",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/PrivateExchange.lean",
+      "release_sha256": "85b591cff5da0e351b51de2e4ff6c19ec79e7649dc6becacde2d537fe8765423",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/PrivateExchange.lean",
+      "source_sha256": "85b591cff5da0e351b51de2e4ff6c19ec79e7649dc6becacde2d537fe8765423",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Tests.lean",
+      "release_sha256": "f4d0c5d4912924e8a6ece85d6ce87756eaec284a5e30b989fa3592278227a712",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Tests.lean",
+      "source_sha256": "f4d0c5d4912924e8a6ece85d6ce87756eaec284a5e30b989fa3592278227a712",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Tests195.lean",
+      "release_sha256": "0e7f12c96a760a966e6ab3860fe5f5fd7ceb941602e2e527fb9ffe35d7ef3805",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Tests195.lean",
+      "source_sha256": "0e7f12c96a760a966e6ab3860fe5f5fd7ceb941602e2e527fb9ffe35d7ef3805",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/Tests195Unconditional.lean",
+      "release_sha256": "08a434a8c185cbb6ee1dc7bc5edfc5368e6d30c68e433248895c7e85cde9b1b2",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/Tests195Unconditional.lean",
+      "source_sha256": "08a434a8c185cbb6ee1dc7bc5edfc5368e6d30c68e433248895c7e85cde9b1b2",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge/TightComponents.lean",
+      "release_sha256": "18344741816f0368d8fd1baf6d575fb004f804edda6e625e69f2234cfb3af818",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge/TightComponents.lean",
+      "source_sha256": "18344741816f0368d8fd1baf6d575fb004f804edda6e625e69f2234cfb3af818",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "lean/StrongEdge.lean",
+      "release_sha256": "86a3ef58c3e16d14464f03136997fd780b4c9adb4a7c32beb9d5944553b2d62f",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "1160b4529436efa82d579a2f7e4b97e57ae5d9f0",
+      "source_path": "strong_edge_lean_starter/StrongEdge.lean",
+      "source_sha256": "86a3ef58c3e16d14464f03136997fd780b4c9adb4a7c32beb9d5944553b2d62f",
+      "status": "byte-for-byte copy"
+    },
+    {
+      "release_path": "manuscript/packing195.md",
+      "release_sha256": "47ba0d2ac112c0d215f3d6f3502bd520b34b8b5966cbc7f83f57a22e68440804",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "860b5e44588d1bbc1eceed8748c67b29693a9d99",
+      "source_path": "output/pdf/packing195_unconditional_manuscript.md",
+      "source_sha256": "dfaecbed197f59c4fe092af8739663782192fcc2a33c8e02e58b786a7c584fe1",
+      "status": "title-page metadata edit only",
+      "transformation": "Remove only the standalone title-page @credit line; retain every other source byte and the complete end-of-manuscript AI disclosure."
+    },
+    {
+      "release_path": "manuscript/packing195.pdf",
+      "release_sha256": "caac492cf24d6abdf28068f0a93f09a66cdeacb12407bdfac04dd36eb81e5144",
+      "source_repository": "https://github.com/congyuemao/strong-edge-lean-verification",
+      "source_commit": "860b5e44588d1bbc1eceed8748c67b29693a9d99",
+      "source_path": "output/pdf/packing195_unconditional_manuscript.pdf",
+      "source_sha256": "f85f24a98eee20e89971c65fa4928ca8b9bc7906c00332b0dda49d0f1ee39e05",
+      "status": "regenerated from release Markdown after title-page metadata edit",
+      "transformation": "Remove only the standalone title-page @credit line; retain every other source byte and the complete end-of-manuscript AI disclosure.",
+      "input_release_sha256": "47ba0d2ac112c0d215f3d6f3502bd520b34b8b5966cbc7f83f57a22e68440804"
+    },
+    {
+      "release_path": "README.md",
+      "release_sha256": "ac8b545f99f620a88c4a1bda7333e7fa781d9a5b63de5862306a8cf61e46b8a1",
+      "source_path": null,
+      "source_commit": null,
+      "source_sha256": null,
+      "status": "new release documentation or repository configuration"
+    }
+  ]
+}
