@@ -53,7 +53,7 @@
   "release_verification": {
     "platform": "Windows 11 x86_64 build 26200",
     "timezone": "Australia/Sydney",
-    "status": "READY FOR PUBLICATION (local only)",
+    "status": "VERIFIED AND PUBLISHED",
     "build_jobs": 1197,
     "audit": {
       "modules": [
@@ -197,7 +197,7 @@
       "exit_code": 0
     },
     "original_archives_unchanged": true,
-    "remote_write_operations": 0
+    "remote_write_operations_during_local_verification": 0
   },
   "files": [
     {
@@ -226,7 +226,7 @@
     },
     {
       "release_path": "docs/VERIFICATION.md",
-      "release_sha256": "afe043ce052ea5020634164900677078477e985cff3f096f99545b906ce4ecf7",
+      "release_sha256": "446e65646b93de187504ca28764f7a1d64e7af686147c8070b175e464c3b800b",
       "source_path": null,
       "source_commit": null,
       "source_sha256": null,

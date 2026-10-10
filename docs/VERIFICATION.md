@@ -87,7 +87,9 @@ The [completion record at the verified source commit](https://github.com/congyue
 
 ## Actual release verification
 
-**Status: READY FOR PUBLICATION (local preparation only; no remote publication).**
+**Status: VERIFIED AND PUBLISHED.**
+
+The verified release is publicly available at [congyuemao/strong-edge-packing-195](https://github.com/congyuemao/strong-edge-packing-195).
 
 This run took place on **10 October 2026, Australia/Sydney (UTC+11)**, on **Windows 11 x86_64, build 26200**, using the exact Lean/Lake binaries listed above. The existing pinned compiler installation was used read-only via `PATH`. No compiler files were copied into the release.
 
@@ -111,7 +113,7 @@ The five newly executed audits produced **376 entries covering 376 distinct decl
 
 The PDF was regenerated and all **19 pages** rendered with Poppler and visually inspected. The title page names only **Congyue Mao**, the PDF Author metadata agrees, and the complete end-of-manuscript AI disclosure remains visible. All **37 numbered statements** and **28 numbered equations** have consistent references. Page numbers and safe-area checks pass on every page; extracted text on each page matches the source PDF except for the removed title-page credit line. The source-byte comparison confirms every mathematical formula and proof paragraph is unchanged. These are integrity and layout checks, not a new mathematical review of the English proof.
 
-Release links, module imports, file hashes, and the file inventory were checked locally. All 79 copied formal-source/environment hashes match the fixed Git objects and the archived inventory. All tracked contents, HEADs, branches, refs, index bytes, and Git configuration in both original checkouts match their pre-work snapshots (328 research-archive files and 986 formalization-archive files). No remote is configured for the release repository.
+Release links, module imports, file hashes, and the file inventory were checked locally. All 79 copied formal-source/environment hashes match the fixed Git objects and the archived inventory. All tracked contents, HEADs, branches, refs, index bytes, and Git configuration in both original checkouts match their pre-work snapshots (328 research-archive files and 986 formalization-archive files). The release was subsequently published to GitHub with the author's authorization.
 
 Raw logs, rendered review images, the exact temporary scripts, and a short build report are retained outside the release repository in the adjacent local `strong-edge-packing-195-work/` directory. No old verification log was substituted for a new run. The only intermediate failures were UTF-8 decoding errors in temporary Python packaging checks under Windows' default code page, before Lean verification began; rerunning those helpers with explicit UTF-8 succeeded. No Lean build, audit, or regression command failed.
 
@@ -140,4 +142,4 @@ print("All listed release hashes match.")
 
 ## Limits
 
-This is a corrected induced-matching packing theorem for arbitrary candidate edge sets. It does not prove the integer strong edge twenty-colour conjecture, optimality of 19.5, a general weighted or fractional colouring analogue, or a polynomial-time matching algorithm. It does not independently validate every exploratory note in either historical archive. The PDF's source uses custom typesetting directives; the PDF is the formatted reading version. No licence is added pending the author's decision. Local readiness does not authorize remote publication.
+This is a corrected induced-matching packing theorem for arbitrary candidate edge sets. It does not prove the integer strong edge twenty-colour conjecture, optimality of 19.5, a general weighted or fractional colouring analogue, or a polynomial-time matching algorithm. It does not independently validate every exploratory note in either historical archive. The PDF's source uses custom typesetting directives; the PDF is the formatted reading version. No licence is added pending the author's decision.
